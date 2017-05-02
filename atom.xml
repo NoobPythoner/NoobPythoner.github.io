@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2017-04-28T10:21:44.608Z</updated>
+  <updated>2017-05-02T09:38:27.074Z</updated>
   <id>/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机组成--语言、层次和虚拟机</title>
+    <link href="/2017/05/02/Computer_language_level_and_vritual_machine/"/>
+    <id>/2017/05/02/Computer_language_level_and_vritual_machine/</id>
+    <published>2017-05-02T06:40:41.000Z</published>
+    <updated>2017-05-02T09:38:27.074Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;语言和虚拟机&quot;&gt;&lt;a href=&quot;#语言和虚拟机&quot; class=&quot;headerlink&quot; title=&quot;语言和虚拟机&quot;&gt;&lt;/a&gt;语言和虚拟机&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;第n层&lt;blockquote&gt;
+&lt;p&gt;虚拟机Mn，其机器语言为Ln；&lt;br&gt;用Ln编写的程序运需要通过更低级别的解释器解释或者翻译后执行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;第3层&lt;blockquote&gt;
+&lt;p&gt;虚拟机为M3，其机器语言为L3  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;第2层&lt;blockquote&gt;
+&lt;p&gt;虚拟机为M2，其机器语言为L2&lt;br&gt;L1编写的程序需要在M1上的解释器解释执行，或者翻译成L1语言后执行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;第1层&lt;blockquote&gt;
+&lt;p&gt;虚拟机为M1，其机器语言为L1&lt;br&gt;L1编写的程序需要在M0上的解释器解释执行，或者翻译成L0语言后执行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;第0层&lt;blockquote&gt;
+&lt;p&gt;实际的计算机语言M0，其机器语言为L0&lt;br&gt;L0编写的程序可以直接通过电子电路执行&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="计算机组成" scheme="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
